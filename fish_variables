@@ -1,6 +1,9 @@
 # This file contains fish universal variable definitions.
 # VERSION: 3.0
 SETUVAR __fish_initialized:3400
+SETUVAR _fisher_jorgebucaran_2F_fisher_files:\x7e/\x2econfig/fish/functions/fisher\x2efish\x1e\x7e/\x2econfig/fish/completions/fisher\x2efish
+SETUVAR _fisher_plugins:jorgebucaran/fisher
+SETUVAR _fisher_upgraded_to_4_4:\x1d
 SETUVAR fish_autosuggestion_enabled:0
 SETUVAR fish_autosuggestions_enabled:0
 SETUVAR fish_color_autosuggestion:6272a4
@@ -29,6 +32,7 @@ SETUVAR fish_color_status:red
 SETUVAR fish_color_user:8be9fd
 SETUVAR fish_color_valid_path:\x2d\x2dunderline
 SETUVAR fish_complete_path:/usr/share/fish/completions
+SETUVAR fish_greeting:\x1d
 SETUVAR fish_key_bindings:fish_default_key_bindings
 SETUVAR fish_pager_color_background:\x1d
 SETUVAR fish_pager_color_completion:f8f8f2
