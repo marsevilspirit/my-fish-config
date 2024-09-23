@@ -8,19 +8,14 @@ if status is-interactive
 
     # neofetch快捷键
     abbr s neofetch
-
     # kitty快捷键
     abbr icat "kitty +kitten icat"
-
     # zoxide
     abbr cd z
-
     # bat
     abbr cat bat
-
     # duf
     abbr df duf
-
     # nvim
     abbr nv nvim
 
