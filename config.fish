@@ -18,11 +18,13 @@ if status is-interactive
     abbr df duf
     # nvim
     abbr nv nvim
+    # Uxplay
+    abbr uxplay "sudo systemctl start avahi-daemon.service && uxplay"
 
     # leetcode 每日提醒
     python /home/mars/utils/leetcode_notifyV2.py &
 
-    if type -q eza
+    if type -q eza 
         abbr ls eza
         abbr ll "eza -l -g --icons"
         abbr lla "ll -a"

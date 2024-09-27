@@ -19,8 +19,7 @@ function fish_prompt
     set -g __fish_git_prompt_color_branch yellow --bold
     set -l git_info (fish_git_prompt)
 
-    set -l dollar "$normal\$"  
+    set -l dollar "$normal\$"
 
-    #echo -n -s "$name:$cwd$git_info $dollar "
-    printf '%s:%s%s %s' $name $cwd $git_info $dollar
+    echo -n -s "$name $cwd$git_info $dollar "
 end
