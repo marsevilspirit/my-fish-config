@@ -1,7 +1,7 @@
 if status is-interactive
     # Commands to run in interactive sessions can go here
 
-    export export CHEAT_CONFIG_PATH="~/.config/cheat/conf.yml"
+    export CHEAT_CONFIG_PATH="~/.config/cheat/conf.yml"
 
     # 取消自动补全
     set -g fish_autosuggestion_enabled 0
